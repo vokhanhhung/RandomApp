@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Random App"
+        android:textColor="#E91E1E"
+        android:textSize="36sp" />
+
+    <EditText
+        android:hint="Min"
+        android:id="@+id/edtNumberMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:maxLength="5"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:hint="Max"
+        android:id="@+id/edtNumberMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:maxLength="5"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Get Random" />
+
+    <TextView
+        android:id="@+id/tvNumberRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Result: " />
+
+</LinearLayout>
